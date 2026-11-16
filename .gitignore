@@ -1,0 +1,45 @@
+/*
+!/.gitignore
+!/README.md
+!/README.pdf
+!/run-astrbot.py
+!/*.bat
+
+
+# ---------- tools ----------
+!/tools/
+/tools/*
+!/tools/Python312
+/tools/Python312/*
+
+
+# ---------- AstrBot ----------
+!/AstrBot/
+/AstrBot/*
+!/AstrBot/data/
+/AstrBot/data/*
+!/AstrBot/data/plugins/
+/AstrBot/data/plugins/*
+!/AstrBot/data/plugins/astrbot_plugin_group_memory/
+!/AstrBot/data/plugins/astrbot_plugin_group_memory/**
+
+
+# ---------- SnowLuma ------------
+!/SnowLuma
+/SnowLuma/*
+!/SnowLuma/README.md
+
+
+__pycache__/
+*.pyc
+*.pyo
+**/cmd_config.json
+**/data_v4.db
+**/data_v4.db-wal
+**/data_v4.db-shm
+**/webui.json
+**/onebot.json
+**/.env
+**/*.pem
+**/*.key
+
